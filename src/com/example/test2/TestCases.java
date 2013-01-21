@@ -33,8 +33,13 @@ public class TestCases extends ActivityInstrumentationTestCase2<MainActivity> {
 
 	} 
 	
+	
+	
 	public void testInitEditText() {
-	    assertTrue(((MainActivity) mActivity).add(-1,1) == 0);
+		int k =0;
+		k++;
+		k++;
+	    assertTrue(((MainActivity) mActivity).add(k,-2) == 0);
 	} 
 
 
